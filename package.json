@@ -1,0 +1,21 @@
+{
+  "name": "string-manager",
+  "version": "0.0.1",
+  "description": "npm dependency to handle and mange string",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idmore/npm-string-manager",
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string",
+    "manager",
+    "string",
+    "helper"
+  ],
+  "author": "yussan <yussandeveloper@gmail.com>",
+  "license": "ISC"
+}
