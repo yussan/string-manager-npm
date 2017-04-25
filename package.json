@@ -1,9 +1,11 @@
 {
   "name": "string-manager",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "npm dependency to manage your string",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,9 @@
     "helper"
   ],
   "author": "yussan <https://twitter.com/xyussanx>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
