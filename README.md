@@ -1,5 +1,10 @@
 # string-manager
 
+## Instalation
+```
+npm install string-manager
+```
+
 ## How to Use 
 sample :
 ```
@@ -19,18 +24,27 @@ result :
 ## Available modules 
 - `toCamelCase`, generate camel case style for any string 
 
-    example : **my name yusuf**, will be : **My Name Yusuf**
+    example :
+    ```
+    import {toCamelCase} from 'string-manager'
+
+    console.log(toCamelCase('my name is yusuf'))
+    ``` 
+    will be : **My Name Is Yusuf**
 
 - `objToQuery`, convert object to http query 
 
     example :
 
     ```
-    {
+    import {objToQuery} from 'string-manager'
+
+    let data = {
         is_active: false,
         count: 2,
         page: 1
     }
+    console.log(objToQuery(data))
 
     ```
     will be : **is_active=false&count=2&page=1**
@@ -38,8 +52,12 @@ result :
 - `queryToObj`, convert http query to object
 
     example : 
+    ```
+    import {queryToObj} from 'string-manager'
 
-    **is_active=false&count=2&page=1**
+    let query = is_active=false&count=2&page=1
+    console.log(queryToObj(query))
+    ```
 
     will be :
     ```
@@ -51,6 +69,9 @@ result :
     ```
 
 ## Contribution
+
+### In Progress 
+https://trello.com/b/CmJX7AGz/npm-string-manager-https-www-npmjs-com-package-string-manager
 
 ### Found bugs and request
 Don't be shy to report it via this link https://github.com/idmore/npm-string-manager/issues .
