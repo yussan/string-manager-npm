@@ -11,6 +11,7 @@ export function objToQuery(obj={})
 export function queryToObj(str='')
 {
     let obj = {}
+    if(str[0] != '?') str[0] = '?'
     str = str.slice(1).split('&')
     str.map(n => {
       n = n.split('=')
