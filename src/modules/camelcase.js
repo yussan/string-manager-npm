@@ -1,5 +1,13 @@
-export function toCamelCase(str = '')
+import {trim, toSingleSpace} from './spaces'
+
+export function toCamelCase(str)
 {
-    if(!str || typeof str != 'string') return ''
-  	return str.split(' ').map(i => i[0].toUpperCase() + i.substr(1).toLowerCase()).join(' ')
+    try{
+      if(!str || typeof str != 'string') return str
+      str = trim(str)
+      str = toSingleSpace(str)
+  	  return str.split(' ').map(i => i[0].toUpperCase() + i.substr(1).toLowerCase()).join(' ')
+    }catch(e){
+      console.error(e)
+    }
 }

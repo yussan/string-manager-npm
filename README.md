@@ -30,7 +30,7 @@ result :
 
     console.log(toCamelCase('my name is yusuf'))
     ``` 
-    will be : **My Name Is Yusuf**
+    will be : **'My Name Is Yusuf'**
 
 - `objToQuery`, convert object to http query 
 
@@ -47,7 +47,7 @@ result :
     console.log(objToQuery(data))
 
     ```
-    will be : **is_active=false&count=2&page=1**
+    will be : **'is_active=false&count=2&page=1'**
 
 - `queryToObj`, convert http query to object
 
@@ -67,6 +67,31 @@ result :
         page: 1
     }
     ```
+- `stripTags`, remove html tags 
+    example : 
+    ```
+    import {stripTags} from 'string-manager'
+    let str = stripTags('<p>masak sepatu</p>')
+    ```
+    will be **'makan sepatu'**
+
+- `trim`, trim space on first and last string
+    example :
+    ```
+    import {trim} from 'string-manager'
+    let str = trim(' perubahan kaki ')
+
+    ```
+    will be **'perubahan kaki'**
+
+- `toSingleSpace`, replace multiple spaces to single space
+    example :
+    ```
+    import {toSingleSpace} from 'string-manager'
+    let str = toSingleSpace(' perubahan   kaki   panas ')
+
+    ```
+    will be **'perubahan kaki panas'**
 
 ## Contribution
 
