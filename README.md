@@ -75,15 +75,6 @@ result :
     ```
     will be **'makan sepatu'**
 
-- `trim`, trim space on first and last string
-    example :
-    ```
-    import {trim} from 'string-manager'
-    let str = trim(' perubahan kaki ')
-
-    ```
-    will be **'perubahan kaki'**
-
 - `toSingleSpace`, replace multiple spaces to single space
     example :
     ```
@@ -92,6 +83,16 @@ result :
 
     ```
     will be **'perubahan kaki panas'**
+
+- `truncate`, smart truncate string without losing meaning, with extra suffix.
+    example :
+    ```
+    import {truncate} from 'string-manager'
+    let str = truncate('memasak mi ayam hujan-hujan seperti ini memang enak, apalagi ada tambahan segelas teh hangat, makin ok', 25, '...')
+    ```
+    will be **'memasak mi ayam hujan-hujan...'**
+
+    standart js substring, will be **'memask mi ayam hujan-huj'**
 
 ## Contribution
 
@@ -103,3 +104,19 @@ Don't be shy to report it via this link https://github.com/idmore/npm-string-man
 
 ### Developers
 For our github repository https://idmore/npm-string-manager.git, let's work together.
+
+#### Commands 
+- **Build**
+ ```
+ yarn run build
+ ```
+ Build directory destination 
+ ```
+ ./dist
+ ```
+
+- **Unit Testing**
+ We are using mocha to as unit testing
+ ```
+ yarn run test
+ ```

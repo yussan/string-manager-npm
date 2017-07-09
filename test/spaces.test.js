@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import {trim, toSingleSpace} from '../src/modules/spaces'
+import {toSingleSpace} from '../src/modules/spaces'
 
 describe("Camel Case Module", () => {
     describe('toSingleSpace()', () => {
@@ -11,15 +11,9 @@ describe("Camel Case Module", () => {
             const res = toSingleSpace(12)
             expect(res).to.deep.equal(12)
         })
-    })
-    describe('trim()', () => {
-        it("normal use", () => {
-            const res = trim(' lorem ipsum semi dollor hokya ')
-            expect(res).to.deep.equal('lorem ipsum semi dollor hokya')
-        })
-        it("using bad argument", () => {
-            const res = trim(12)
-            expect(res).to.deep.equal(12)
+        it("using bad string, space in first and last string", () => {
+            const res = toSingleSpace(' space  everywhere ')
+            expect(res).to.deep.equal('space everywhere')
         })
     })
 })
