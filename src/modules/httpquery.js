@@ -1,6 +1,7 @@
 export function objToQuery(obj)
 {
-    try{
+    try
+    {
       let str = []
       for(let p in obj)
       {
@@ -15,7 +16,8 @@ export function objToQuery(obj)
 
 export function queryToObj(str)
 {
-    try{
+    try
+    {
       let obj = {}
       str.split('&').map(n => {
         n = n.split('=')
