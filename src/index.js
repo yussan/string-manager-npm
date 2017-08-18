@@ -2,6 +2,7 @@ import {objToQuery, queryToObj} from './modules/httpquery'
 import {toCamelCase} from './modules/camelcase'
 import {stripTags} from './modules/html'
 import {trim, toSingleSpace} from './modules/spaces'
+import {smartSubString} from './modules/substring'
 
 export {
     objToQuery,
@@ -9,5 +10,6 @@ export {
     toCamelCase,
     stripTags,
     trim, 
-    toSingleSpace
+    toSingleSpace,
+    smartSubString
 }
