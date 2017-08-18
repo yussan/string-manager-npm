@@ -1,9 +1,11 @@
-# string-manager Changelog
+# string-manager - changelog
 
-## 0.0.1
+## 1.1.1 - 9 July 2017
 **added**
-- project initialitation
+- truncate(str, limit, suffix)
 
-## 1.0.10
-**solving**
-- bug on camel case `toCamelCase(str)` if found empty string
+**removed** 
+- trim()
+
+**enhacement**
+- toSinggleSpace(), now combined with prototype.trim()

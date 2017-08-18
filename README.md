@@ -34,3 +34,19 @@ Don't be shy to report it via this link https://github.com/idmore/npm-string-man
 
 ### Developers
 For our github repository https://idmore/npm-string-manager.git, let's work together.
+
+#### Commands 
+- **Build**
+ ```
+ yarn run build
+ ```
+ Build directory destination 
+ ```
+ ./dist
+ ```
+
+- **Unit Testing**
+ We are using mocha to as unit testing
+ ```
+ yarn run test
+ ```

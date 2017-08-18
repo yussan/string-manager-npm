@@ -76,3 +76,14 @@
 
     ```
     will be **'perubahan kaki panas'**
+
+## truncate
+- `truncate(str, int, str)`, smart truncate string without losing meaning, with extra suffix.
+  example :
+  ```
+  import {truncate} from 'string-manager'
+  let str = truncate('memasak mi ayam hujan-hujan seperti ini memang enak, apalagi ada tambahan segelas teh hangat, makin ok', 25, '...')
+  ```
+  will be **'memasak mi ayam hujan-hujan...'**
+
+  standart js substring, will be **'memask mi ayam hujan-huj'**
