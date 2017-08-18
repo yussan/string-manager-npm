@@ -22,7 +22,7 @@ result :
 ?is_active=false&count=2&page=1
 ```
 ## Documentations
-[Read more here]('docs/modules.md') 
+[Read more here](https://github.com/idmore/npm-string-manager/blob/master/docs/modules.md) 
 
 ## Contribution
 
