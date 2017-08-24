@@ -1,4 +1,5 @@
 # string-manager
+An npm module to manipulate string.
 
 ## Instalation
 ```
