@@ -1,27 +1,8 @@
+[![npm version](https://img.shields.io/npm/v/string-manager.svg?style=flat-square)](https://www.npmjs.com/package/string-manager)
+
 # string-manager
 An npm module to manipulate string.
 
-## Instalation
-```
-npm install string-manager
-```
-
-## How to Use 
-sample :
-```
-import {objToQuery} from 'string-manager'
-
-let obj = {
-    is_active: false,
-    count: 2,
-    page: 1
-}
-console.log('?'+objToQuery(obj))
-```
-result :
-```
-?is_active=false&count=2&page=1
-```
 ## Documentations
 [Read more here](https://github.com/idmore/npm-string-manager/blob/master/docs/modules.md) 
 
