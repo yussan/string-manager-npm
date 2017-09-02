@@ -3,6 +3,12 @@
 # string-manager
 A npm module to manipulate string.
 
+## Instalation
+Avalilable in npm, use this command to instalation
+```
+npm install string-manager
+```
+
 ## Documentations
 [Read more here](https://github.com/idmore/npm-string-manager/blob/master/docs/modules.md) 
 
