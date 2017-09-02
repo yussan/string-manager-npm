@@ -1,7 +1,7 @@
 [![npm version](https://img.shields.io/npm/v/string-manager.svg?style=flat-square)](https://www.npmjs.com/package/string-manager)
 
 # string-manager
-An npm module to manipulate string.
+A npm module to manipulate string.
 
 ## Documentations
 [Read more here](https://github.com/idmore/npm-string-manager/blob/master/docs/modules.md) 
