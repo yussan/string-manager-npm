@@ -1,3 +1,4 @@
+[![Build Status](https://circleci.com/gh/idmore/npm-string-manager)
 [![npm version](https://img.shields.io/npm/v/string-manager.svg?style=flat-square)](https://www.npmjs.com/package/string-manager)
 
 # string-manager
