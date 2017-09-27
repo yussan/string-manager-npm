@@ -1,4 +1,4 @@
-[![Build Status](https://circleci.com/gh/idmore/npm-string-manager.png?style=shield&circle-token=:circle-token)](https://circleci.com/gh/idmore/npm-string-manager)
+[![Build Status](https://travis-ci.org/idmore/npm-string-manager.svg?branch=master)](https://travis-ci.org/idmore/npm-string-manager)
 [![npm version](https://img.shields.io/npm/v/string-manager.svg?style=flat-square)](https://www.npmjs.com/package/string-manager)
 
 # string-manager
