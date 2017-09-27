@@ -1,7 +1,14 @@
+[![Build Status](https://travis-ci.org/idmore/npm-string-manager.svg?branch=master)](https://travis-ci.org/idmore/npm-string-manager)
 [![npm version](https://img.shields.io/npm/v/string-manager.svg?style=flat-square)](https://www.npmjs.com/package/string-manager)
 
 # string-manager
-An npm module to manipulate string.
+A npm module to manipulate string.
+
+## Instalation
+Avalilable in npm, use this command to instalation
+```
+npm install string-manager
+```
 
 ## Documentations
 [Read more here](https://github.com/idmore/npm-string-manager/blob/master/docs/modules.md) 
