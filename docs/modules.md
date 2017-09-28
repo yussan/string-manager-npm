@@ -86,4 +86,4 @@
   ```
   will be **'memasak mi ayam hujan-hujan...'**
 
-  standart js substring, will be **'memask mi ayam hujan-huj'**
+  standart js substring, will be **'memasak mi ayam hujan-huj'**
