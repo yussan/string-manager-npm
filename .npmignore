@@ -4,3 +4,4 @@ test/
 node_modules/babel-cli/
 node_modules/babel-preset-es2015/
 node_modules/mocha
+*.log

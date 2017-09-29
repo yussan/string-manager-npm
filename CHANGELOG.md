@@ -1,6 +1,6 @@
 # string-manager - changelog
 
-## 1.1.3
+## 1.1.3-beta - 29 Sep 2017
 **added**
 - toSlug()
 

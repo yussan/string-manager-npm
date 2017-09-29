@@ -1,12 +1,12 @@
 {
   "name": "string-manager",
-  "version": "1.1.1",
+  "version": "1.1.3-beta",
   "description": "npm dependency to manage your string",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "prod:build": "NODE_ENV=production babel src -d dist",
-    "prepublish": "npm run build",
+    "prepublish": "npm run prod:build",
     "test": "mocha --compilers js:babel-core/register",
     "test:watch": "mocha --compilers --watch js:babel-core/register"
   },
