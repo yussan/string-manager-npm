@@ -10,11 +10,12 @@ describe("Global", () => {
     describe('StringManager()', () => {
         it("returns manager string instance", () => {
             const res = StringManager('masakan saya')
-            expect(res.constructor.name).to.deep.equal('ManagerString')
+            expect(res.constructor.name).to.deep.equal('StringManager')
         })
-        it("is chainable", () => {
-            const res = StringManager('masakan saya')
-            expect(res.toCamelCase().truncate(5).data).to.equal('Masakan Saya')
+        it("StringManager('masakan saya').toCamelCase()", () => {
+            const res = StringManager('masakan saya').toCamelCase().data
+            const exp = toCamelCase('masakan saya')
+            expect(res).to.equal(exp)
         })
     })
 })
