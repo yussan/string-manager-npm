@@ -1,6 +1,6 @@
 # string-manager - changelog
 
-##
+## 1.1.3
 **added**
 - toSlug()
 
