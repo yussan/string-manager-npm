@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
+    "prod:build": "NODE_ENV=production babel src -d dist",
     "prepublish": "npm run build",
     "test": "mocha --compilers js:babel-core/register",
     "test:watch": "mocha --compilers --watch js:babel-core/register"
@@ -23,9 +24,11 @@
   "author": "yussan <https://twitter.com/xyussanx>",
   "license": "ISC",
   "devDependencies": {
+    "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.2.0",
     "chai": "^3.5.0",
     "mocha": "^3.3.0"
   },

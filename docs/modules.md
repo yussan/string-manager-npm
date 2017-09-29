@@ -82,8 +82,16 @@
   example :
   ```
   import {truncate} from 'string-manager'
-  let str = truncate('memasak mi ayam hujan-hujan seperti ini memang enak, apalagi ada tambahan segelas teh hangat, makin ok', 25, '...')
+  const str = truncate('memasak mi ayam hujan-hujan seperti ini memang enak, apalagi ada tambahan segelas teh hangat, makin ok', 25, '...')
   ```
   will be **'memasak mi ayam hujan-hujan...'**
 
   standart js substring, will be **'memasak mi ayam hujan-huj'**
+
+## toSlug
+- `toSLug(str)`, slug generator, replace space to single dash and remove unsupport characters for url.
+    ```
+    import {toSlug} from 'string-manager'
+    const slug = 'iam ready (for everything) to start'
+    ```
+    will be **'iam-ready-for-everything-to-start'**
