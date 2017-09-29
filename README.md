@@ -7,27 +7,35 @@ A npm module to manipulate string.
 ## Instalation
 Avalilable in npm, use this command to instalation
 ```
+yarn add string-manager
+```
+or
+```
 npm install string-manager
 ```
+
+## Demo
+https://npm.runkit.com/string-manager 
+
+*) The version that is in the demo, different from the existing version in Github
 
 ## Documentations
 [Read more here](https://github.com/idmore/npm-string-manager/blob/master/docs/modules.md) 
 
 ## Contribution
+[Read more here](./CONTRIBUTING.md)
 
-### In Progress 
-https://trello.com/b/CmJX7AGz/npm-string-manager-https-www-npmjs-com-package-string-manager
-
-### Found bugs and request
-Don't be shy to report it via this link https://github.com/idmore/npm-string-manager/issues .
-
-### Developers
-For our github repository https://idmore/npm-string-manager.git, let's work together.
-
-#### Commands 
+## Commands for Cloners
+- **Instalation**
+ 
 - **Build**
+ Build for development
  ```
- yarn run build
+ yarn build
+ ```
+ Build for production
+ ```
+ yarn prod:build
  ```
  Build directory destination 
  ```
@@ -37,5 +45,5 @@ For our github repository https://idmore/npm-string-manager.git, let's work toge
 - **Unit Testing**
  We are using mocha to as unit testing
  ```
- yarn run test
+ yarn test
  ```
