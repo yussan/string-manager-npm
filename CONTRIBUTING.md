@@ -5,7 +5,7 @@ Don't be shy to report it via this link https://github.com/idmore/npm-string-man
 
 ## Fork and Pull Request
 
-Fork this repository, if you have some idea for new feature, enhacement, solving bug or something else, please create issue first and use the appropriate label.
+Fork this repository, if you have some idea for new feature, enhacement, solving bug or something else, please create issue first and use the appropriate label. If pull request for close issues use name `fixed #id#id`, don't forger to assign pull request to [yussan](https://github.com/yussan).
 
 Please pull request only to branch `master`.
 
