@@ -3,15 +3,7 @@ import {toCamelCase} from './modules/camelcase'
 import {stripTags} from './modules/html'
 import {toSingleSpace} from './modules/spaces'
 import {truncate} from './modules/truncate'
-
-export {
-    objToQuery,
-    queryToObj,
-    toCamelCase,
-    stripTags,
-    toSingleSpace,
-    truncate
-}
+import {toSlug} from './modules/slug'
 
 function ManagerString(str) {
     this.data = str
@@ -35,6 +27,19 @@ ManagerString.prototype.stripTags = prototypeBuilder(stripTags)
 ManagerString.prototype.toSingleSpace = prototypeBuilder(toSingleSpace)
 ManagerString.prototype.truncate = prototypeBuilder(truncate)
 
+export {
+    objToQuery,
+    queryToObj,
+    toCamelCase,
+    stripTags,
+    toSingleSpace,
+    truncate,
+    toSlug
+}
+
 export default (str) => {
     return new ManagerString(str);
+}
+
+    
 }
