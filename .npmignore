@@ -1,7 +1,9 @@
 .git/
 src/
 test/
-node_modules/babel-cli/
-node_modules/babel-preset-es2015/
-node_modules/mocha
+node_modules
 *.log
+.babelrc
+.travis.yml
+docs
+.vscode
