@@ -49,4 +49,4 @@ https://npm.runkit.com/string-manager
   We are using mocha to as unit testing
   ```
   yarn test
- ```
+  ```
