@@ -27,22 +27,26 @@ https://npm.runkit.com/string-manager
 
 ## Commands for Cloners
 - **Instalation**
+  ```
+  yarn install
+  ```
  
 - **Build**
- Build for development
- ```
- yarn build
- ```
- Build for production
- ```
- yarn prod:build
- ```
- Build directory destination 
- ```
- ./dist
- ```
+  Build for development
+  ```
+  yarn build
+  ```
+  Build for production
+  ```
+  yarn prod:build
+  ```
+  Build directory destination 
+  ```
+  ./dist
+  ```
 
 - **Unit Testing**
+<<<<<<< HEAD
  We are using mocha to as unit testing
  ```
  yarn test
@@ -52,3 +56,9 @@ https://npm.runkit.com/string-manager
  - [yussan](https://github.com/yussan)
  - [dzhurey](https://github.com/dzhurey)
  - [simonbynd](https://github.com/simonbynd)
+=======
+  We are using mocha to as unit testing
+  ```
+  yarn test
+  ```
+>>>>>>> 60db9bc33b69698ab10cccfd8723faeb889d5b7b
