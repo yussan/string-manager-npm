@@ -25,8 +25,8 @@ StringManager.prototype.toSingleSpace = prototypeBuilder(_spaces.toSingleSpace)
 // StringManager.prototype.truncate = prototypeBuilder(_truncate.truncate)
 StringManager.prototype.toSlug = prototypeBuilder(_slug.toSlug)
 
-export {objToQuery, queryToObj} from './modules/httpquery'
 export {toCamelCase} from './modules/camelcase'
+export {objToQuery, queryToObj} from './modules/httpquery'
 export {stripTags} from './modules/html'
 export {toSingleSpace} from './modules/spaces'
 export {truncate} from './modules/truncate'

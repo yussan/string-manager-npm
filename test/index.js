@@ -1,5 +1,5 @@
-import { expect } from 'chai'
 import StringManager from '../src/index'
+import {expect} from 'chai'
 import {toCamelCase} from '../src/modules/camelcase'
 import {truncate} from '../src/modules/truncate'
 import {stripTags} from '../src/modules/html'

@@ -57,16 +57,6 @@
     ```
     will be **'makan sepatu'**
 
-## trim
-- `trim(str)`, trim space on first and last string
-    example :
-    ```
-    import {trim} from 'string-manager'
-    let str = trim(' perubahan kaki ')
-
-    ```
-    will be **'perubahan kaki'**
-
 ## toSingleSpace
 - `toSingleSpace(str)`, replace multiple spaces to single space
     example :
