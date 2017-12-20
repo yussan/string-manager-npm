@@ -47,3 +47,8 @@ https://npm.runkit.com/string-manager
  ```
  yarn test
  ```
+ 
+ ## Contributor
+ - [yussan](https://github.com/yussan)
+ - [dzhurey](https://github.com/dzhurey)
+ - [simonbynd](https://github.com/simonbynd)
