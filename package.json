@@ -1,6 +1,6 @@
 {
   "name": "string-manager",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "npm dependency to manage your string",
   "main": "dist/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "helper"
   ],
   "author": "yussan <https://twitter.com/xyussanx>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
