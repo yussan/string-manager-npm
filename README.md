@@ -56,3 +56,7 @@ https://npm.runkit.com/string-manager
  - [yussan](https://github.com/yussan)
  - [dzhurey](https://github.com/dzhurey)
  - [simonbynd](https://github.com/simonbynd)
+ 
+ ## Who used this
+- [Kompetisi.id](https://kompetisi.id)
+- [Sebangsa](https://sebangsa.com)
