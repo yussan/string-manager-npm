@@ -85,3 +85,12 @@
     const slug = 'iam ready (for everything) to start'
     ```
     will be **'iam-ready-for-everything-to-start'**
+
+## Currency 
+
+- `currencyFormat(int, str)`, set dot after three digit for currency nominal.
+    ```
+    import { currencyFormat } from 'string-manager
+    const price = currencyFormat(245000, 'Rp')
+    ```
+    will be **'Rp 245.000'**
