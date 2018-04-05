@@ -1,5 +1,6 @@
 [![Build Status](https://api.travis-ci.org/yussan/npm-string-manager.svg?branch=master)](https://travis-ci.org/yussan/npm-string-manager)
 [![npm version](https://img.shields.io/npm/v/string-manager.svg?style=flat-square)](https://www.npmjs.com/package/string-manager)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 # string-manager
 A npm module to manipulate string.
@@ -46,7 +47,6 @@ https://npm.runkit.com/string-manager
   ```
 
 - **Unit Testing**
-<<<<<<< HEAD
  We are using mocha to as unit testing
  ```
  yarn test
@@ -56,9 +56,7 @@ https://npm.runkit.com/string-manager
  - [yussan](https://github.com/yussan)
  - [dzhurey](https://github.com/dzhurey)
  - [simonbynd](https://github.com/simonbynd)
-=======
-  We are using mocha to as unit testing
-  ```
-  yarn test
-  ```
->>>>>>> 60db9bc33b69698ab10cccfd8723faeb889d5b7b
+ 
+ ## Who used this
+- [Kompetisi.id](https://kompetisi.id)
+- [Sebangsa](https://sebangsa.com)
