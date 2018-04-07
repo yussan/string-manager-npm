@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import {stripTags, toHtmlTag} from '../src/modules/html'
+import {stripTags, nl2br} from '../src/modules/html'
 
 describe("HTML Modules", () => {
     describe('stripTags()', () => {
