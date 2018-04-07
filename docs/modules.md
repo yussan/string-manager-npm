@@ -66,16 +66,6 @@
     ```
     will be **'ayo lari &lt;/br&gt; besok pagi'**
 
-## trim
-- `trim(str)`, trim space on first and last string
-    example :
-    ```
-    import {trim} from 'string-manager'
-    let str = trim(' perubahan kaki ')
-
-    ```
-    will be **'perubahan kaki'**
-
 ## toSingleSpace
 - `toSingleSpace(str)`, replace multiple spaces to single space
     example :
@@ -104,3 +94,12 @@
     const slug = 'iam ready (for everything) to start'
     ```
     will be **'iam-ready-for-everything-to-start'**
+
+## Currency 
+
+- `currencyFormat(int, str)`, set dot after three digit for currency nominal.
+    ```
+    import { currencyFormat } from 'string-manager
+    const price = currencyFormat(245000, 'Rp')
+    ```
+    will be **'Rp 245.000'**

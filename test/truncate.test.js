@@ -11,5 +11,9 @@ describe("Truncate Module", () => {
             const res =truncate(12, 10, '...')
             expect(res).to.deep.equal(12)
         })
+        it("must be no truncate", () => {
+            const res =truncate('haha', 4, '...')
+            expect(res).to.deep.equal('haha')
+        })
     })
 })

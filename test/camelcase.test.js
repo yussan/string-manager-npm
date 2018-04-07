@@ -1,6 +1,5 @@
 import {expect} from 'chai'
-// import {toCamelCase} from '../src/modules/camelcase'
-import {toCamelCase} from '../dist/index'
+import {toCamelCase} from '../src/modules/camelcase'
 
 describe("Camel Case Module", () => {
     describe('toCamelCase()', () => {
