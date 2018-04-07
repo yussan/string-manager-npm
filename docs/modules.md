@@ -57,6 +57,15 @@
     ```
     will be **'makan sepatu'**
 
+## nl2br
+- `nl2br(str)`, replace newline string into newline HTML tag 
+    example : 
+    ```
+    import {stripTags} from 'string-manager'
+    let str = nl2br('ayo lari \n besok pagi')
+    ```
+    will be **'ayo lari &lt;/br&gt; besok pagi'**
+
 ## toSingleSpace
 - `toSingleSpace(str)`, replace multiple spaces to single space
     example :
