@@ -69,6 +69,17 @@
 
   will be **'makan sepatu'**
 
+- `nl2br(str)`, convert \n to <br/> tags
+
+    example :
+
+    ```
+    import {nl2br} from 'string-manager
+    let content = nl2br('<p>hai Luth\napakah kamu siap?</p>')
+    ```
+
+    will be `'hai Luth<br/>apakah kamu siap?'`
+
 ## toSingleSpace
 
 - `toSingleSpace(str)`, replace multiple spaces to single space
