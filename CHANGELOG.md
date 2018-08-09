@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0-beta.1"></a>
+# [2.0.0-beta.1](https://github.com/idmore/npm-string-manager/compare/v2.0.0-beta.0...v2.0.0-beta.1) (2018-08-09)
+
+
+### Bug Fixes
+
+* **queryToObj:** added normal use expert test ([6dfcfe0](https://github.com/idmore/npm-string-manager/commit/6dfcfe0)), closes [#36](https://github.com/idmore/npm-string-manager/issues/36)
+
+
+### Features
+
+* **nl2br(str):** added nl2br() module ([f73d9a1](https://github.com/idmore/npm-string-manager/commit/f73d9a1)), closes [#34](https://github.com/idmore/npm-string-manager/issues/34)
+* **toMask(str, int, int):** added toMask() module ([1c81942](https://github.com/idmore/npm-string-manager/commit/1c81942)), closes [#28](https://github.com/idmore/npm-string-manager/issues/28)
+
+
+
 <a name="2.0.0-beta.0"></a>
 # [2.0.0-beta.0](https://github.com/idmore/npm-string-manager/compare/v1.1.5...v2.0.0-beta.0) (2018-04-05)
 
