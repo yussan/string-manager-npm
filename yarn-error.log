@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js test
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js release
 
 PATH: 
   /Users/yussan/.rvm/gems/ruby-2.4.2/bin:/Users/yussan/.rvm/gems/ruby-2.4.2@global/bin:/Users/yussan/.rvm/rubies/ruby-2.4.2/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/yussan/.rvm/gems/ruby-2.4.2/bin:/Users/yussan/.rvm/gems/ruby-2.4.2@global/bin:/Users/yussan/.rvm/rubies/ruby-2.4.2/bin:/usr/local/sbin:/Users/yussan/.rvm/bin:/Users/yussan/.rvm/bin
@@ -16,7 +16,7 @@ Platform:
 npm manifest: 
   {
     "name": "string-manager",
-    "version": "2.0.0-beta.0",
+    "version": "2.0.0",
     "description": "npm dependency to manage your string",
     "main": "dist/index.js",
     "scripts": {
@@ -2813,7 +2813,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c mocha --compilers js:babel-core/register
+  Arguments: -c standard-version && npm publish
   Directory: /Users/yussan/Projects/npm/npm-string-manager
   Output:
   
