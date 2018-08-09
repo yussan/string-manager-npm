@@ -132,3 +132,15 @@
   ```
 
   will be **'Rp 245.000'**
+
+## Masking 
+
+- `toMask(str, start, end)`, mask character by asteric symbol / *
+
+  example :
+
+  ```
+  const res = toMask('testdrive@gmail.com', 0, 8)
+  ```
+
+  will be *********@gmail.com

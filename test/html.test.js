@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { stripTags, nl2br } from '../src/modules/html'
+import { stripTags, nl2br } from '../src/index'
 
 describe('HTML Modules', () => {
   describe('stripTags()', () => {
@@ -14,9 +14,9 @@ describe('HTML Modules', () => {
   })
 
   describe('nl2br()', () => {
-      it('normal use', () => {
-          const res = nl2br('masa sih\noke juga')
-          expect(res).to.deep.equal('masa sih<br/>oke juga')
-      })
+    it('normal use', () => {
+      const res = nl2br('masa sih\noke juga')
+      expect(res).to.deep.equal('masa sih<br/>oke juga')
+    })
   })
 })

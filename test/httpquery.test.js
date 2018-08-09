@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { objToQuery, queryToObj } from '../src/modules/httpquery'
+import { objToQuery, queryToObj } from '../src/index'
 
 describe('HttpQuery', () => {
   describe('objToQuery()', () => {
@@ -22,8 +22,12 @@ describe('HttpQuery', () => {
     })
 
     it('normal use expert', () => {
-        const res = queryToObj('q=https://play.google.com/store/apps/details?id=com.lesgood.guru')
-        expect(res).to.deep.equal({ q: 'https://play.google.com/store/apps/details?id=com.lesgood.guru' })
+      const res = queryToObj(
+        'q=https://play.google.com/store/apps/details?id=com.lesgood.guru'
+      )
+      expect(res).to.deep.equal({
+        q: 'https://play.google.com/store/apps/details?id=com.lesgood.guru'
       })
+    })
   })
 })
