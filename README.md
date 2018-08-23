@@ -60,4 +60,4 @@ https://npm.runkit.com/string-manager
  ## Who used this
 - [Kompetisi.id](https://kompetisi.id)
 - [Sebangsa](https://sebangsa.com)
-- [Arena] (https://arena.id)
+- [Arena](https://arena.id)
