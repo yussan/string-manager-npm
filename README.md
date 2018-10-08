@@ -59,5 +59,6 @@ https://npm.runkit.com/string-manager
  
  ## Who used this
 - [Kompetisi.id](https://kompetisi.id)
+- [Oopsreview](https://oopsreview.com)
 - [Sebangsa](https://sebangsa.com)
 - [Arena](https://arena.id)
