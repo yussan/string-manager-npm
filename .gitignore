@@ -4,3 +4,4 @@ npm-debug.*
 .vscode/config.json
 *.log
 yarn.lock
+package-lock.json
