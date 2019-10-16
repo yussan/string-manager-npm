@@ -1,6 +1,6 @@
 {
   "name": "@yussan/string-manager",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "npm dependency to manage your string",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "release:beta": "standard-version -p beta",
     "release": "standard-version && npm publish"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yussan/npm-string-manager.git"
