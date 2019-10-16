@@ -44,4 +44,4 @@ jobs:
           scope: '@yussan'
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.github_tokn}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
