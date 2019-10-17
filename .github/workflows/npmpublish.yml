@@ -15,8 +15,8 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
-      - run: npm install --registry https://registry.npmjs.org && npm test
+          node-version: 10
+      - run: npm install --registry https://registry.npmjs.org --no-package-lock && npm test
 
   publish-npm:
     needs: testing
@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
-      - run:  npm install --registry https://registry.npmjs.org && npm publish
+      - run:  rm package.json && mv npm.package.json && npm install --registry https://registry.npmjs.org --no-package-lock && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
