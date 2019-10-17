@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: rm .npmrc && npm install && npm test
+      - run: npm install --registry https://registry.npmjs.org && npm test
 
   publish-npm:
     needs: testing
@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
-      - run:  rm .npmrc && npm install && npm publish
+      - run:  npm install --registry https://registry.npmjs.org && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
