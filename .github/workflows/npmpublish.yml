@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: npm install && npm publish
+      - run:  npm install && npm publish --@getify:registry=https://registry.npmjs.org/
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
