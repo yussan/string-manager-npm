@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
-      - run:  rm package.json && mv npm.package.json && npm install --registry https://registry.npmjs.org --no-package-lock && npm publish
+      - run:  rm package.json && mv npm.package.json package.json && npm install --registry https://registry.npmjs.org --no-package-lock && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
