@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
-      - run:  rm .npmrc && rm package.json && mv npm.package.json package.json && npm install --no-package-lock && npm publish
+      - run:  rm .npmrc && rm package.json && mv npm.package.json package.json && npm install --no-package-lock && npm prod:build && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
@@ -41,6 +41,6 @@ jobs:
           node-version: 10
           registry-url: https://npm.pkg.github.com/
           scope: '@yussan'
-      - run: npm install && npm publish
+      - run: npm install && npm prod:build && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
