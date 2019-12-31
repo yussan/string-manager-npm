@@ -7,7 +7,7 @@
     "build": "babel src -d dist",
     "prod:build": "NODE_ENV=production babel src -d dist",
     "test": "mocha --compilers js:babel-core/register",
-    "test:watch": "mocha --compilers --watch js:babel-core/register",
+    "test:watch": "mocha --watch ./test --compilers js:babel-core/register",
     "release:beta": "standard-version -p beta",
     "release": "standard-version && npm publish"
   },
