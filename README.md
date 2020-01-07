@@ -28,7 +28,7 @@ https://npm.runkit.com/string-manager
 
 ## Documentations
 
-[Read more here](https://github.com/idmore/npm-string-manager/blob/master/docs/modules.md)
+[Read more here](https://github.com/yussan/npm-string-manager/blob/master/docs/modules.md)
 
 ## Contribution
 

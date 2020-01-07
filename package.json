@@ -1,5 +1,5 @@
 {
-  "name": "@yussan/string-manager",
+  "name": "string-manager",
   "version": "3.0.1",
   "description": "npm dependency to manage your string",
   "main": "dist/index.js",
