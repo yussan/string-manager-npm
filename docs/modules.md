@@ -1,5 +1,17 @@
 # Available modules
 
+## scaleNumber
+
+- `scaleNumber(number)`, scaling large numbers to smaller character
+
+  example :
+
+  ```
+  import {scaleNumber} from 'string-manager'
+
+  console.log(scaleNumber(1000000))
+  ```
+
 ## toCamelCase
 
 - `toCamelCase(str)`, generate camel case style for any string
@@ -71,23 +83,24 @@
 
 - `nl2br(str)`, convert \n to <br/> tags
 
-    example :
+  example :
 
-    ```
-    import {nl2br} from 'string-manager
-    let content = nl2br('<p>hai Luth\napakah kamu siap?</p>')
-    ```
+  ```
+  import {nl2br} from 'string-manager
+  let content = nl2br('<p>hai Luth\napakah kamu siap?</p>')
+  ```
 
-    will be `'hai Luth<br/>apakah kamu siap?'`
+  will be `'hai Luth<br/>apakah kamu siap?'`
 
 ## nl2br
-- `nl2br(str)`, replace newline string into newline HTML tag 
-    example : 
-    ```
-    import {stripTags} from 'string-manager'
-    let str = nl2br('ayo lari \n besok pagi')
-    ```
-    will be **'ayo lari &lt;/br&gt; besok pagi'**
+
+- `nl2br(str)`, replace newline string into newline HTML tag
+  example :
+  ```
+  import {stripTags} from 'string-manager'
+  let str = nl2br('ayo lari \n besok pagi')
+  ```
+  will be **'ayo lari &lt;/br&gt; besok pagi'**
 
 ## toSingleSpace
 
@@ -142,9 +155,9 @@
 
   will be **'Rp 245.000'**
 
-## Masking 
+## Masking
 
-- `toMask(str, start, end)`, mask character by asteric symbol / *
+- `toMask(str, start, end)`, mask character by asteric symbol / \*
 
   example :
 
@@ -152,4 +165,4 @@
   const res = toMask('testdrive@gmail.com', 0, 8)
   ```
 
-  will be *********@gmail.com
+  will be ****\*****@gmail.com
