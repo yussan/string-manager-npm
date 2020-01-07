@@ -35,5 +35,6 @@ export { truncate } from './modules/truncate'
 export { toSlug } from './modules/slug'
 export { currencyFormat } from './modules/currency'
 export { toMask } from './modules/masking'
+export { scaleNumber } from './modules/number'
 
 // export default str => { return new StringManager(str)}
