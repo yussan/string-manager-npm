@@ -1,6 +1,6 @@
 {
   "name": "@yussan/string-manager",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "npm dependency to manage your string",
   "main": "dist/index.js",
   "scripts": {
@@ -10,9 +10,6 @@
     "test:watch": "mocha --watch ./test --compilers js:babel-core/register",
     "release:beta": "standard-version -p beta",
     "release": "standard-version && npm publish"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
