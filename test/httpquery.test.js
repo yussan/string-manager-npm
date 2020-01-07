@@ -21,6 +21,11 @@ describe('HttpQuery', () => {
       expect(res).to.deep.equal({ orderby: 'age', show: 'true' })
     })
 
+    it('normal use with ?', () => {
+      const res = queryToObj('?orderby=age&show=true')
+      expect(res).to.deep.equal({ orderby: 'age', show: 'true' })
+    })
+
     it('normal use expert', () => {
       const res = queryToObj(
         'q=https://play.google.com/store/apps/details?id=com.lesgood.guru'
