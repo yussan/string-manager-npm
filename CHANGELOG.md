@@ -2,15 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## 2.1.2
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/yussan/string-manager-npm/compare/v2.0.0...v3.0.0) (2020-01-07)
 
-### Added
 
-- scaleNumber()
+### Bug Fixes
 
-### Bug Solving
+* **gitignore:** add .nmprc ([e1fcfe1](https://github.com/yussan/string-manager-npm/commit/e1fcfe1))
 
-- auto remove `?` in first character queryToObj()
+
+### Features
+
+* **number module:** add scale number functionality ([85e55cf](https://github.com/yussan/string-manager-npm/commit/85e55cf))
+
+
+### BREAKING CHANGES
+
+* **number module:** #37
+
+
 
 <a name="2.0.2"></a>
 
