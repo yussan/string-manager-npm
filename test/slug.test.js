@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { toSlug } from '../src/index'
 
-describe('Slug Module', () => {
+describe('Slug Modules', () => {
   describe('toSlug()', () => {
     it('normal use', () => {
       const res = toSlug('masakan saya punya 2')
