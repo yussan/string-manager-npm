@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.org/yussan/npm-string-manager.svg?branch=master)](https://travis-ci.org/yussan/npm-string-manager)
+[![Build Status](https://travis-ci.org/yussan/string-manager-npm.svg?branch=master&status=passed)](https://travis-ci.org/github/yussan/string-manager-npm)
 [![npm version](https://img.shields.io/npm/v/string-manager.svg?style=flat-square)](https://www.npmjs.com/package/string-manager)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
