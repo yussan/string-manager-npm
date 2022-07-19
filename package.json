@@ -23,6 +23,9 @@
     "helper"
   ],
   "author": "yussan <https://twitter.com/xyussanx>",
+  "contributors": [
+    "gonorus <https://github.com/gonorus>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel": "^6.23.0",
