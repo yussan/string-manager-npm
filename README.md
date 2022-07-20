@@ -79,8 +79,8 @@ yarn test
 
 ## Who used this
 
-- [Mau Gowes](https://maugowes.com)
-- [Id More Academy](https://academy.byidmore.com)
+- [MauGowes](https://maugowes.com)
+- [MauCoding](https://maucoding.com)
 - [Oopsreview](https://oopsreview.com)
 - [Kompetisi.id](https://kompetisi.id)
 - [Sebangsa](https://sebangsa.com)
