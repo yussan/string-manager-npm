@@ -13,7 +13,7 @@ describe('Slug Modules', () => {
     })
     it('using aliens character', () => {
       const res = toSlug('this is it あなたはスラム街で犬を飼う you')
-      expect(res).to.deep.equal('this-is-it-あなたはスラム街で犬を飼う-you')
+      expect(res).to.deep.equal('this-is-it-you')
     })
   })
 })

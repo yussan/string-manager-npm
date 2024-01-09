@@ -79,9 +79,9 @@ yarn test
 
 ## Who used this
 
+- [Follooow.com](https://follooow.com)
 - [MauGowes](https://maugowes.com)
-- [MauCoding](https://maucoding.com)
-- [Oopsreview](https://oopsreview.com)
 - [Kompetisi.id](https://kompetisi.id)
+- [MauCoding](https://maucoding.com)
 - [Sebangsa](https://sebangsa.com)
 - [Arena](https://arena.id)

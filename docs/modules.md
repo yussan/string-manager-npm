@@ -8,9 +8,12 @@
 
   ```
   import {scaleNumber} from 'string-manager'
+  -- or
+  import {scaleNumber} from 'string-manager/dist/modules/number'
 
-  console.log(scaleNumber(1000000))
   ```
+
+  will be : **'1M'**
 
 ## toCamelCase
 
@@ -20,11 +23,12 @@
 
   ```
   import {toCamelCase} from 'string-manager'
+  -- or
+  import {toCamelCase} from 'string-manager/dist/modules/camelcase'
 
-  console.log(toCamelCase('my name is yusuf'))
   ```
 
-  will be : **'My Name Is Yusuf'**
+  will be : **'My Name Is Yussan'**
 
 ## objToQuery
 
@@ -34,13 +38,14 @@
 
   ```
   import {objToQuery} from 'string-manager'
+  -- or
+  import {objToQuery} from 'string-manager/dist/modules/httpquery'
 
   let data = {
       is_active: false,
       count: 2,
       page: 1
   }
-  console.log(objToQuery(data))
   ```
 
   will be : **'is_active=false&count=2&page=1'**
@@ -53,9 +58,10 @@
 
   ```
   import {queryToObj} from 'string-manager'
+  -- or
+  import {queryToObj} from 'string-manager/dist/modules/queryToObj'
 
   let query = is_active=false&count=2&page=1
-  console.log(queryToObj(query))
   ```
 
   will be :
@@ -76,6 +82,8 @@
 
   ```
   import {stripTags} from 'string-manager'
+
+
   let str = stripTags('<p>masak sepatu</p>')
   ```
 
@@ -165,4 +173,4 @@
   const res = toMask('testdrive@gmail.com', 0, 8)
   ```
 
-  will be ****\*****@gmail.com
+  will be \***\*\*\*\***@gmail.com
