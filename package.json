@@ -1,6 +1,6 @@
 {
   "name": "string-manager",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "npm dependency to manage your string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

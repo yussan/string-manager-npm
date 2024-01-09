@@ -1,6 +1,26 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [4.0.0](https://github.com/yussan/string-manager-npm/compare/v2.0.0...v4.0.0) (2024-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **number module:** #37
+
+### Features
+
+* Adding ambient module ([9dcbb67](https://github.com/yussan/string-manager-npm/commit/9dcbb67ba026e0cd30f31c1ac61dae62341fe08e))
+* **new feature:** new feature ready to use ([6707c7e](https://github.com/yussan/string-manager-npm/commit/6707c7efd6d9c09a193807e37a21e8f537b73f58)), closes [#1234](https://github.com/yussan/string-manager-npm/issues/1234)
+* **number module:** add scale number functionality ([85e55cf](https://github.com/yussan/string-manager-npm/commit/85e55cfbc2f8d5c7989aaae56111867ae1704c30))
+* **toslug():** remove un supported character on link ([24aa521](https://github.com/yussan/string-manager-npm/commit/24aa521eaa1a714551674fe804a71d082a37b71e))
+
+
+### Bug Fixes
+
+* Adding module type and adding exported member ([d342107](https://github.com/yussan/string-manager-npm/commit/d342107da87c805125e6ca62ce5d41b6faf91daf))
+* **gitignore:** add .nmprc ([e1fcfe1](https://github.com/yussan/string-manager-npm/commit/e1fcfe1f6605ac770c91e701bd59f2f3f6c093c9))
 
 <a name="3.0.0"></a>
 
