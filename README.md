@@ -20,6 +20,15 @@ or
 npm install string-manager
 ```
 
+TypeScript declarations are included. Import the named functions as usual:
+
+```typescript
+import { toCamelCase, truncate } from 'string-manager'
+
+const name: string = toCamelCase('string manager')
+const preview: string = truncate(name, 8, '...')
+```
+
 ## Demo
 
 https://npm.runkit.com/string-manager

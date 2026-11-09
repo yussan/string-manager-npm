@@ -29,7 +29,7 @@
 
 export { toCamelCase } from './modules/camelcase'
 export { objToQuery, queryToObj } from './modules/httpquery'
-export { stripTags, nl2br } from './modules/html'
+export { stripTags, nl2br, htmlExcerpt } from './modules/html'
 export { toSingleSpace } from './modules/spaces'
 export { truncate } from './modules/truncate'
 export { toSlug } from './modules/slug'

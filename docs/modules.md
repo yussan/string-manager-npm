@@ -100,6 +100,37 @@
 
   will be `'hai Luth<br/>apakah kamu siap?'`
 
+- `htmlExcerpt(html, limit)`, create a plain text excerpt from html by removing the tags and truncating the text.
+
+  **How to use**
+
+  ```
+  import {htmlExcerpt} from 'string-manager'
+
+  htmlExcerpt(html, limit)
+  ```
+
+  - `html` : html string
+  - `limit` : maximum number of characters before the text is truncated
+
+  **Sample**
+
+  ```
+  const html = '<p>hi this is long words from here</p>'
+
+  const excerpt = htmlExcerpt(html, 6)
+  ```
+
+  will be **'hi this...'**
+
+  The word that crosses the limit is kept so the excerpt does not end with a broken word. When the plain text length is not greater than `limit`, it is returned without `...`.
+
+  ```
+  htmlExcerpt('<p>hi this</p>', 7)
+  ```
+
+  will be **'hi this'**
+
 ## nl2br
 
 - `nl2br(str)`, replace newline string into newline HTML tag
