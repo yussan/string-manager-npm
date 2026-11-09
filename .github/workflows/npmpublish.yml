@@ -18,29 +18,4 @@ jobs:
           node-version: 10
       - run: npm install --registry https://registry.npmjs.org --no-package-lock && npm test
 
-  publish-npm:
-    needs: testing
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 10
-          registry-url: https://registry.npmjs.org/
-      - run:  rm .npmrc && rm package.json && mv npm.package.json package.json && npm install --no-package-lock && npm run prod:build && npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-  publish-gpr:
-    needs: testing
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 10
-          registry-url: https://npm.pkg.github.com/
-          scope: '@yussan'
-      - run: npm install && npm run prod:build && npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  
