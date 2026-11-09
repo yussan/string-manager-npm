@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/yussan/string-manager-npm/compare/v4.0.0...v4.1.0) (2026-11-09)
+
+### Features
+
+* **html module:** add `htmlExcerpt(html, limit)` to create a plain text excerpt from html
+* **typescript:** add type declaration for `htmlExcerpt`
+
 ## [4.0.0](https://github.com/yussan/string-manager-npm/compare/v2.0.0...v4.0.0) (2024-01-09)
 
 
