@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/yussan/string-manager-npm.svg?branch=master&status=passed)](https://travis-ci.org/github/yussan/string-manager-npm)
 [![npm version](https://img.shields.io/npm/v/string-manager.svg?style=flat-square)](https://www.npmjs.com/package/string-manager)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -39,7 +38,7 @@ https://npm.runkit.com/string-manager
 
 [Read more here](https://github.com/yussan/npm-string-manager/blob/master/docs/modules.md)
 
-## Contribution
+## Contributions
 
 [Read more here](./CONTRIBUTING.md)
 
@@ -88,7 +87,11 @@ yarn test
 
 ## Who used this
 
+- [Jatelindo](https://jatelindo.co.id)
+- [CNR](http://cnrsoftware.co.id)
+- [Maujuara](https://maujuara.com)
 - [Follooow.com](https://follooow.com)
+- [LinkAja](https://linkaja.id)
 - [MauGowes](https://maugowes.com)
 - [Kompetisi.id](https://kompetisi.id)
 - [MauCoding](https://maucoding.com)
